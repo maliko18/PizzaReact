@@ -77,7 +77,7 @@ function CreateOrder() {
             />
 
             {!position.latitude && !position.longitude && (
-              <span className="absolute top-[34.5px] right-[4px] z-99 sm:top-[3px] sm:right-[4px] md:top-[7px] md:right-[5px]">
+              <span className="absolute top-[38.5px] right-[5px] z-99 sm:top-[6px] sm:right-[5px] md:top-[10px] md:right-[9px]">
                 <Button
                   disabled={isLoadingAddress}
                   type="inForm"
